@@ -20,3 +20,16 @@ Automated weekly-style pipeline health reporting from Salesforce:
 
 ## Setup
 1) Create `.env` based on `.env.example`:
+SF_CLIENT_ID=...
+SF_CLIENT_SECRET=...
+SF_REFRESH_TOKEN=...
+
+2) 2) Install:
+pip install -r requirements.txt
+## Run
+python src/extract_salesforce.py
+python src/metrics.py
+python src/report.py
+
+## Notes
+- `.env` is ignored by git. Do not commit tokens.
