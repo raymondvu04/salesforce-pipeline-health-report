@@ -1,5 +1,3 @@
-# Sample report: reports/pipeline_health_report.pdf
-
 # Salesforce Pipeline Health Report (Automated)
 
 ## Overview
